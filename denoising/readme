@@ -1,1 +1,9 @@
-Denoising the images
+# Denoising the images
+
+noisy_image is the intial image that has noise
+
+Gaussian -> After applyig Gaussian filter. Noise is removed but the edges are not preserved. Image gets blurred
+
+Median -> After applying media filter. Noise is removed but the edges are preserved.
+
+nlm -> After applying non local mean filter. Noise is removed, edges are preserved, image not blurred. 
