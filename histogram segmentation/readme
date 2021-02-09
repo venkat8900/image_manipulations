@@ -1,1 +1,10 @@
 Histogram based image segmentation
+
+noisy -> noisy image
+
+Noise in the image is removed using non local mean filer. 
+
+hist_segmented -> segmented image based on histogram values (based on the range in the code)
+
+hist_segmented_clean -> Cleaned image after segemntation
+
