@@ -1,10 +1,8 @@
 Random Walker Paper: http://vision.cse.psu.edu/people/chenpingY/paper/grady2006random.pdf
 
-original image: Alloy_noise
-
 # Steps
 
-1. Read the image
+1. Read the image. original image: Alloy_noise
 2. Check for histogram based segemntation.
 3. For histogram based segmentation, remove the noise. 
 4. buch of values are present in between the peaks so perform CLAHE
